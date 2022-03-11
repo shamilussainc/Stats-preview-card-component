@@ -56,7 +56,7 @@ Users should be able to:
 
 ### Continued development
 
-In this project grid layout fount useful when aligning elements besides normal html stucture.
+In this project grid layout found useful when aligning elements besides normal html stucture.
 
 
 ## Author
