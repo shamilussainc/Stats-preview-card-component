@@ -47,14 +47,14 @@ body main .card .image-section {
   border-top-right-radius: inherit;
 }
 
-body main .card .image-section img {
-  width: 100%;
-  opacity: .4;
+body main .card .image-section picture {
   border-radius: inherit;
 }
 
-body main .card .image-section .desktop {
-  display: none;
+body main .card .image-section picture img {
+  width: 100%;
+  opacity: .4;
+  border-radius: inherit;
 }
 
 body main .card .content {
@@ -141,12 +141,6 @@ body main .card .content .stats > div .label {
     grid-column: 2/3;
     border-top-left-radius: 0;
     border-bottom-right-radius: inherit;
-  }
-  body main .card .image-section .mobile {
-    display: none;
-  }
-  body main .card .image-section .desktop {
-    display: inline;
   }
 }
 

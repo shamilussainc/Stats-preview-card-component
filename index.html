@@ -16,8 +16,11 @@
   <main>
     <div class="card">
       <div class="image-section">
-        <img class="mobile" src="./images/image-header-mobile.jpg" alt="image-header">
-        <img class="desktop" src="./images/image-header-desktop.jpg" alt="image-header">
+        <picture>
+          <source media="(max-width: 1029px)" srcset="./images/image-header-mobile.jpg">
+          <source media="(min-width: 1030px)" srcset="./images/image-header-desktop.jpg">
+          <img src="./images/image-header-desktop.jpg" alt="Header image">
+        </picture>
       </div>
       <div class="content">
         <div class="title">
